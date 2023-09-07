@@ -1,0 +1,56 @@
+# intellij
+.idea/
+.bloop/
+.bsp/
+out/
+
+# metals
+project/metals.sbt
+.metals
+
+# vs code
+.vscode
+
+# CMake
+cmake-build-*/
+
+# File-based project format
+*.iws
+
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/project/
+project/target/
+.history
+.cache
+.lib/
+
+### Scala ###
+*.class
+*.log
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+node_modules/
+_includes/
+*.semanticdb
